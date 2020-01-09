@@ -7,7 +7,8 @@
 <script>
 export default {
 nam: 'VmBlockquote',
-props:['text']
+props:['text'],
+
  }
 </script>
 
