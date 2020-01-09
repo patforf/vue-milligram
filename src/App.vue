@@ -1,18 +1,19 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <div>
+      <VmBlockquote text="Mon text"></VmBlockquote>
+      <VmBlockquote text="Mon autre text"></VmBlockquote>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VmBlockquote from './components/VmBlockquote' 
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  components:{
+    VmBlockquote,
   }
+   
 }
 </script>
 
